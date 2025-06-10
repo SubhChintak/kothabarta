@@ -11,7 +11,8 @@ import { CheckCircleIcon, MapPinIcon, UserPlusIcon, UsersIcon } from "lucide-rea
 
 import { capitialize } from "../lib/utils";
 
-import FriendCard, { getLanguageFlag } from "../components/FriendCard";
+// import FriendCard, { getLanguageFlag } from "../components/FriendCard";
+import FriendCard from "../components/FriendCard";
 import NoFriendsFound from "../components/NoFriendsFound";
 
 const HomePage = () => {
@@ -126,11 +127,11 @@ const HomePage = () => {
                       {/* Languages with flags */}
                       <div className="flex flex-wrap gap-1.5">
                         <span className="badge badge-secondary">
-                          {getLanguageFlag(user.nativeLanguage)}
+                          {/* {getLanguageFlag(user.nativeLanguage)} */}
                           Native: {capitialize(user.nativeLanguage)}
                         </span>
                         <span className="badge badge-outline">
-                          {getLanguageFlag(user.learningLanguage)}
+                          {/* {getLanguageFlag(user.learningLanguage)} */}
                           Learning: {capitialize(user.learningLanguage)}
                         </span>
                       </div>

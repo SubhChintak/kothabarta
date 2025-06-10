@@ -163,10 +163,10 @@ export const THEMES = [
 ];
 
 export const LANGUAGES = [
+  "Bengali",
   "Hindi",
   "English",
   "Assamese",
-  "Bengali",
   "Gujarati",
   "Kannada",
   "Kashmiri",,

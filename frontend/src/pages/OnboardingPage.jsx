@@ -96,7 +96,7 @@ const OnboardingPage = () => {
             {/* BIO */}
             <div className="form-control">
               <label className="label">
-                <span className="label-text">Bio</span>
+                <span className="label-text">Description</span>
               </label>
               <textarea
                 name="bio"
@@ -163,7 +163,7 @@ const OnboardingPage = () => {
                   value={formState.location}
                   onChange={(e) => setFormState({ ...formState, location: e.target.value })}
                   className="input input-bordered w-full pl-10"
-                  placeholder="City, Country"
+                  placeholder="City, State"
                 />
               </div>
             </div>

@@ -58,7 +58,7 @@ const LoginPage = () => {
                 <div>
                   <h2 className="text-xl font-semibold">Welcome Back</h2>
                   <p className="text-sm opacity-70">
-                    You're one sign-in away from understanding India better.
+                    You're one Sign-in away from understanding India better.
                   </p>
                 </div>
 
